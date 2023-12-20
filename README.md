@@ -25,3 +25,9 @@ Run flit commands in the project directory.
 - Install project locally for development: `flit install`
 - Publish project to PyPI: `flit publish`
 - Publish project to testPyPI: `flit publish --repository testpypi`
+
+# Project files
+- `src/`: Contains all package directories.
+- `tests/`: Contains all test modules.
+- `pyproject.toml`: Defines the project's configuration, dependencies, etc.
+- `.pypirc`: Used by flit for deployment to PyPI. *In my opinion this should be done away with and flit should provide its own option to publish to testpypi or some URL.*
