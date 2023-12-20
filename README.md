@@ -1,5 +1,5 @@
 # python-project-template
-Simple python project template
+Template for a simple python project.
 
 # Project hierarchy
 ```
