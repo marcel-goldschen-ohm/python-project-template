@@ -1,7 +1,7 @@
 # python-project-template
 Simple python project template
 
-# Project heirarchy
+# Project hierarchy
 ```
 /
 ├── src/
