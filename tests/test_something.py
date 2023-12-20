@@ -1,5 +1,7 @@
+from mypackage.mymodule import do_something
+
 def test_something():
-  pass
+  do_something()
 
 def test_pass():
   assert(True)
