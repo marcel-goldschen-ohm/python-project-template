@@ -10,8 +10,8 @@ Simple python project template
 │       └── mymodule.py
 ├── tests/
 │   └── test_something.py
-├── README.md
 ├── LICENSE
+├── README.md
 ├── pyproject.toml
 ├── .gitignore
 └── .pypirc
