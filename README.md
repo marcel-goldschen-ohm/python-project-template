@@ -13,6 +13,7 @@ Simple python project template
 ├── README.md
 ├── LICENSE
 ├── pyproject.toml
+├── .gitignore
 └── .pypirc
 ```
 
