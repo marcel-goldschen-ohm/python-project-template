@@ -1,4 +1,13 @@
 # python-project-template
+
+1. Use a conda environment: `conda create -n myenv python; conda activate myenv`
+2. Install poetry: `pip install pipx; pipx install poetry`
+3. Create package: `poetry new mypackage` (or `poetry init` in existing package)
+4. Add dependencies: `poetry add numpy`
+5. Add dependencies for testing: `poetry add pytest --group test`
+6. Install mypackage locally for dev: `poetry install`
+
+# OLD
 Template for a simple python project.
 
 # Project hierarchy
@@ -29,5 +38,5 @@ Run flit commands in the project directory.
 # Project files
 - `src/`: Contains all package directories.
 - `tests/`: Contains all test modules.
-- `pyproject.toml`: Defines the project's configuration, dependencies, etc.
+- `pyproject.toml`: Defines project configurations and dependencies.
 - `.pypirc`: Used by flit for deployment to PyPI. *In my opinion this should be done away with and flit should provide its own option to publish to testpypi or some URL.*
